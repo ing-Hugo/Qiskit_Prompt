@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+
 from llama_index.core.node_parser import SimpleNodeParser
 from llama_index.llms.openai import OpenAI
 from llama_index.embeddings.openai import OpenAIEmbedding
@@ -11,7 +11,7 @@ from llama_index.core import Settings
 
 from pinecone import Pinecone,ServerlessSpec
 import streamlit as st
-load_dotenv()
+
 
 
 
