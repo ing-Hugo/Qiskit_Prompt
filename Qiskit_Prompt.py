@@ -27,9 +27,11 @@ spec = ServerlessSpec(cloud=cloud, region=region)
 def get_index()->VectorStoreIndex:
    
    # initialize connection to pinecone (get API key at app.pinecone.io)
-   api_key = os.environ.get('PINECONE_API_KEY') or 'PINECONE_API_KEY'
+   #api_key = os.environ.get('PINECONE_API_KEY') or 'PINECONE_API_KEY'
+
+   
 # configure client
-   pc = Pinecone(api_key=api_key)
+   pc = Pinecone(api_key=st.secrets["PINECONE_API_KEY"])
 
 # connect to index
    
