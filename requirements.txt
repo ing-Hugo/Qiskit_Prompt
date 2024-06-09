@@ -3,4 +3,3 @@ pinecone-datasets==0.7.0
 openai 
 llama-index
 llama-index-vector-stores-pinecone 
-pyhon-dotenv
