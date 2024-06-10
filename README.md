@@ -21,10 +21,10 @@ Qiskit_Prompt is a prompt assistant to consult the Qiskit documentation, in a dy
 
 # Links de Referencias:
 
-https://docs.pinecone.io/guides/get-started/quickstart
-https://docs.llamaindex.ai/en/stable/
-Streamlit • A faster way to build and share data apps
-https://docs.streamlit.io/
-IBM Quantum Documentation
+* https://docs.pinecone.io/guides/get-started/quickstart
+* https://docs.llamaindex.ai/en/stable/
+* Streamlit • A faster way to build and share data apps
+* https://docs.streamlit.io/
+* IBM Quantum Documentation
 Link de la aplicación del Qiskit ChatBot
-https://qiskitprompt.streamlit.app/
+* https://qiskitprompt.streamlit.app/
